@@ -1,0 +1,15 @@
+@import url("./__container/places__container.css");
+@import url("./__title/places__title.css");
+@import url("./__image/places__image.css");
+@import url("./__website/places__website.css");
+@import url("./__website-url/places__website-url.css");
+@import url("./__website-link/places__website-link.css");
+@import url("./__paragraphs/places__paragraphs.css");
+@import url("./__paragraphs-item/places__paragraphs-item.css");
+
+.places {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 92px auto 0;
+}

@@ -1,0 +1,11 @@
+.lead__container {
+    max-width: 984px;
+    margin: 0;
+    padding: 0 100px;
+}
+
+@media screen and  (max-width: 1024px) {
+    .lead__container {
+        padding: 0;
+    }
+}

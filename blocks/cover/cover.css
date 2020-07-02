@@ -1,0 +1,31 @@
+@import url("./__content/cover__content.css");
+@import url("./__title/cover__title.css");
+@import url("./__subtitle/cover__subtitle.css");
+@import url("./__link/cover__link.css");
+@import url("./__image/cover__image.css");
+
+
+.cover {
+    display: grid;
+    grid-template-columns: 100%;
+    position: relative;
+    padding: 0 48px;
+    max-width: 1280px;
+    margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 88px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 64px 0;
+    }
+}

@@ -1,0 +1,7 @@
+.places__paragraphs-item {
+    margin: 0;
+}
+
+.places__paragraphs-item:nth-of-type(n+2) {
+    margin: 24px 0 0;
+}

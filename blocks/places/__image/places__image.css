@@ -1,0 +1,11 @@
+.places__image {
+    grid-column: 1/2;
+    width: 100%;
+}
+
+@media screen and (max-width: 490px) {
+    .places__image {
+        grid-row: 2/ 3;
+        margin: 32px 0;
+    }
+}
