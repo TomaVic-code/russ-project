@@ -1,3 +1,4 @@
+@import url("./__nav/footer__nav.css");
 @import url("./__links/footer__links.css");
 @import url("./__links-item/footer__links-item.css");
 @import url("./__link/footer__link.css");
@@ -10,8 +11,14 @@
     margin: 92px auto 24px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px auto 24px;
+    }
+}
 @media screen and (max-width: 700px) {
     .footer {
         flex-direction: column;
+        margin: 64px auto 24px;
     }
 }
