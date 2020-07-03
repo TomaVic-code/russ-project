@@ -1,13 +1,11 @@
 .cover__link {
     grid-row: 1;
-    grid-column: 1;
+    grid-column: 2;
     width: 100%;
-    transition: .3s ease-in;
-    opacity: 0.8;
+    transition: opacity .3s ease-in;
     background-color: #2A2C2F;
 }
 
 .cover__link:hover {
-    transition: .3s ease-in;
     opacity: 0.3;
 }

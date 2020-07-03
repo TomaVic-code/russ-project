@@ -8,8 +8,6 @@
 @import url("./__paragraphs-item/places__paragraphs-item.css");
 
 .places {
-    display: flex;
-    flex-direction: column;
     max-width: 1280px;
     margin: 92px auto 0;
 }

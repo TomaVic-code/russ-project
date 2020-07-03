@@ -2,10 +2,9 @@
     color: #fff;
     font-size: 18px;
     line-height: 1.22;
-    transition: .3s ease-in;
+    transition: opacity .3s ease-in;
 }
 
 .places__website-link:hover {
-    transition: .3s ease-in;
     opacity: 0.5;
 }
